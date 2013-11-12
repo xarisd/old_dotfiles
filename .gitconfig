@@ -7,3 +7,5 @@
 	ui = true
 [alias]
 	lol = log --oneline --graph --decorate
+[push]
+	default = simple
