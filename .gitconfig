@@ -1,0 +1,9 @@
+[user]
+	name = xarisd
+	email = xaris.dimitriou@gmail.com
+[core]
+	editor = vi
+[color]
+	ui = true
+[alias]
+	lol = log --oneline --graph --decorate
