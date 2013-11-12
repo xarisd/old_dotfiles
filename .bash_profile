@@ -15,6 +15,9 @@ export LIBRARY_PATH="$(xcrun --show-sdk-path)/usr/lib:$(xcrun --show-sdk-path)/u
 export EDITOR=vim
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+export RBENV_ROOT="$HOME/.rbenv"
 
+if [ -d $RBENV_ROOT ]; then
+  export PATH="$RBENV_ROOT/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
