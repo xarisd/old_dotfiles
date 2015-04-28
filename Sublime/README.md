@@ -35,8 +35,7 @@ This can be done in file `User/Default (OSX).sublime-keymap` using the following
 * http://editorconfig.org/
 * https://github.com/sindresorhus/editorconfig-sublime#readme
 
-### Sublime CodeIntel
-
+### Package: Sublime CodeIntel
 
 * https://packagecontrol.io/packages/SublimeCodeIntel
 * http://sublimecodeintel.github.io/SublimeCodeIntel/
@@ -75,5 +74,15 @@ See : https://johnblackbourn.com/sublimecodeintel-st3
   `codeintel_scan_files_in_project` settings to `true`.
 
   Note: This fix is done...
+
+
+### Package: Terminal
+
+* http://wbond.net/sublime_packages/terminal
+
+Open terminal in the current's file parent folder by `CMD + SHIFT + t`
+Open terminal in the project's root by `CMD + SHIFT + ALT + t`
+
+
 
 
