@@ -3,7 +3,10 @@
   // specific settings file, for example, "Preferences (Linux).sublime-settings".
   // Because of this, setting them here will have no effect: you must set them
   // in your User File Preferences.
-	"font_size": 16,
+  "font_face": "Monaco",
+  "font_size": 16.0,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
 
 
   // Columns in which to display vertical rulers
@@ -96,6 +99,4 @@
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.
   "ignored_packages": ["Vintage"]
-
-
 }
