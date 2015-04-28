@@ -6,6 +6,11 @@
 	[
 		"EditorConfig",
 		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
 		"Terminal"
 	],
 	"repositories":
