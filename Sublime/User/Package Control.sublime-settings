@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"Package Control"
+	],
+	"repositories":
+	[
+		"https://github.com/guillermooo/Vintageous",
+		"https://github.com/guillermooo/Vintageous.git"
+	]
+}

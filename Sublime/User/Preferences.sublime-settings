@@ -1,0 +1,9 @@
+{
+	"binary_file_patterns": [
+		".DS_Store",
+		"*.psd",
+		"tmp/",
+		"vendor/"
+	],
+	"font_size": 16
+}
