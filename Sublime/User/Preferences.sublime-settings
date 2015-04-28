@@ -1,102 +1,83 @@
 {
-  // Note that the font_face and font_size are overridden in the platform
-  // specific settings file, for example, "Preferences (Linux).sublime-settings".
-  // Because of this, setting them here will have no effect: you must set them
-  // in your User File Preferences.
-  "font_face": "Monaco",
-  "font_size": 16.0,
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
-
-
-  // Columns in which to display vertical rulers
-  "rulers": [80, 120],
-
-
-  // The number of spaces a tab is considered equal to
-  "tab_size": 2,
-  // Set to true to insert spaces when tab is pressed
-  "translate_tabs_to_spaces": true,
-  // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
-  // backspace insert/delete up to the next tabstop
-  "use_tab_stops": true,
-  // Set to false to disable detection of tabs vs. spaces on load
-  "detect_indentation": true,
-  // Calculates indentation automatically when pressing enter
-  "auto_indent": true,
-  // Makes auto indent a little smarter, e.g., by indenting the next line
-  // after an if statement in C. Requires auto_indent to be enabled.
-  "smart_indent": true,
-  // Trims white space added by auto_indent when moving the caret off the line.
-  "trim_automatic_white_space": true,
-
-  // Disables horizontal scrolling if enabled.
-  // May be set to true, false, or "auto", where it will be disabled for
-  // source code, and otherwise enabled.
-  "word_wrap": "auto",
-
-
-  // If enabled, will highlight any line with a caret
-  "highlight_line": true,
-
-
-  // Set to "none" to turn off drawing white space, "selection" to draw only the
-  // white space within the selection, and "all" to draw all white space
-  "draw_white_space": "all",
-  // Set to true to removing trailing white space on save
-  "trim_trailing_white_space_on_save": true,
-  // Set to true to ensure the last line of the file ends in a newline
-  // character when saving
-  "ensure_newline_at_eof_on_save": true,
-
-
-
-  // Makes tabs with modified files more visible
-  "highlight_modified_tabs": true,
-
-
-  // Display file encoding in the status bar
-  "show_encoding": true,
-  // Display line endings in the status bar
-  "show_line_endings": true,
-
-  // Show the full path to files in the title bar.
-  // On OS X, this value is overridden in the platform specific settings, so
-  // you'll need to place this line in your user settings to override it.
-  "show_full_path": true,
-
-
-
-  // folder_exclude_patterns and file_exclude_patterns control which files
-  // are listed in folders on the side bar. These can also be set on a per-
-  // project basis.
-  "folder_exclude_patterns": [
-    // Default...
-    ".svn", ".git", ".hg", "CVS"
-  ],
-  "file_exclude_patterns": [
-    // Default...
-    "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o",
-    "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf",
-    "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class",
-    "*.psd", "*.db", "*.sublime-workspace"],
-  // These files will still show up in the side bar, but won't be included in
-  // Goto Anything or Find in Files
-  "binary_file_patterns": [
-    // Default...
-    "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga",
-    "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
-    // xarisd additions
-    "tmp/"
-    ],
-
-  // index_exclude_patterns indicate which files won't be indexed.
-  "index_exclude_patterns": [
-    // Default
-    "*.log"
-  ],
-
-  // List any packages to ignore here. When removing entries from this list,
-  // a restart may be required if the package contains plugins.
-  "ignored_packages": ["Vintage"]
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"tmp/"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Monaco",
+	"font_size": 16.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_wrap": "auto"
 }

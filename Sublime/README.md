@@ -84,5 +84,51 @@ Open terminal in the current's file parent folder by `CMD + SHIFT + t`
 Open terminal in the project's root by `CMD + SHIFT + ALT + t`
 
 
+### Package: SublimeLinter
+
+See http://www.sublimelinter.com/en/latest/
+
+READ the instructions!
+
+* CSSLint
+
+  ```
+  npm install csslint -g
+  ```
+
+  then install package SublimeLinter-csslint
+  and then follow instructions at
+  https://github.com/SublimeLinter/SublimeLinter-csslint
+
+* JSHint
+
+  ```
+  npm install jshint -g
+  ```
+  and then install package SublimeLinter-jshint
+  and then follow instructions at
+  https://github.com/SublimeLinter/SublimeLinter-jshint
+
+* Flake8 (Python)
+
+  ```
+  pip install flake8
+  ```
+
+  then install package SublimeLinter-csslint
+  and then follow instructions at
+  https://github.com/SublimeLinter/SublimeLinter-flake8
+
+* Rubocop (Ruby)
+
+  ```
+  gem install rubocop
+  ```
+
+  then install package SublimeLinter-rubocop
+  and then follow instructions at
+  https://github.com/SublimeLinter/SublimeLinter-rubocop
+
+
 
 
