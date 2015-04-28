@@ -18,3 +18,14 @@ See [Package Control Docs : Syncing](https://packagecontrol.io/docs/syncing)
 
 * http://editorconfig.org/
 * https://github.com/sindresorhus/editorconfig-sublime#readme
+
+
+## Paste and Indent
+
+Remap [CTRL + v] to use command `paste_and_indent`.
+This can be done in file `User/Default (OSX).sublime-keymap` using the following
+
+```
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+shift+v"], "command": "paste" }
+```
