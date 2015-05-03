@@ -1,5 +1,7 @@
 # Help for setting up Sublime Text
 
+You can read SublimeText's unofficial documentation at http://docs.sublimetext.info/en/latest/index.html
+
 ## Install Package Control!
 
   The Sublime Text package manager that makes it exceedingly simple to find, install and keep packages up-to-date.
@@ -136,6 +138,8 @@
 
 ### Package: Python 3 / Cython+
 
+  Python 3 and Cython language bundles for Sublime Text and TextMate
+
   See: https://packagecontrol.io/packages/Python%203
 
   Set as default
@@ -143,3 +147,58 @@
   After you installed the language definition file successfully, all you have to do is assign the .py files to always open with this syntax highlighter. Go to
 
   `View` → `Syntax` → `Open all with current extension as`... → `Python 3`
+
+### Package: requirementstxt
+
+  Provides autocompletion, syntax highlight and easy version management in requirements.txt files.
+
+  See:
+
+  * https://packagecontrol.io/packages/requirementstxt
+
+### Package: Sublime​Python​IDE
+
+  Adds Python completions and some IDE-like functions to Sublime Text 3, through the use of the [Rope](http://sublimerope.readthedocs.org/en/latest/) library.
+
+  The only necessary configuration at the moment is setting “python_interpreter” in your projects settings (Project->Edit Project) to use another interpreter than your system interpreter. Example:
+
+  ```
+  {
+      "folders": [
+          {
+             "path": "XYZ"
+          },
+          {
+              "path": "ABC"
+          }
+      ],
+      "settings": {
+          "python_interpreter": "/path/to/some/virtualenv/bin/python"
+      }
+  }
+  ```
+
+  This is also the way to select a **virtualenv** (point it to the interpreter in the venv) and thus get the completions/definitions for you project working.
+
+  SublimePythonIDE will also look up imports relative to the project root directory (the top directory of your project).
+
+  In cases where the project directory is outside of your root python module, you may optionally set a custom source root directory in the project settings:
+
+  ```
+  {
+      "folders": [
+          {
+             "path": "XYZ"
+          },
+      ],
+      "settings": {
+          "src_root": "XYZ/THE_ACTUAL_SRC"
+          "python_interpreter": "/path/to/some/virtualenv/bin/python",
+      }
+  }
+  ```
+
+  See:
+
+  * https://packagecontrol.io/packages/SublimePythonIDE
+  * http://sublimerope.readthedocs.org/en/latest/
