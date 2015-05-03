@@ -142,6 +142,17 @@ You can read SublimeText's unofficial documentation at http://docs.sublimetext.i
       and then follow instructions at
       https://github.com/SublimeLinter/SublimeLinter-rubocop
 
+### Package: Sublimerge Pro
+
+  The professional, side-by-side tool to diff and merge files and directories right in Sublime Text. Supports Git, SVN and Mercurial.
+
+  Visit [www.sublimerge.com](http://www.sublimerge.com) for complete information about features, installation instructions, usage and settings.
+
+  See
+
+  * https://packagecontrol.io/packages/Sublimerge%20Pro
+  * http://www.sublimerge.com
+
 ## Packages - Python
 
 ### Package: Python 3 / Cython+
