@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+
+\$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require '${1:yourmainfile}'
+
+require 'minitest/autorun'
+${2}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>minitesthelper</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>

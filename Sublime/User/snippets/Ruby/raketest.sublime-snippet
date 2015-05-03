@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+require 'rake'
+require 'rake/testtask'
+require "bundler/gem_tasks"
+
+Rake::TestTask.new do |t|
+  t.test_files = Dir.glob('test/**/test_*.rb')
+end
+
+task(default: :test)
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>raketest</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby</scope>
+</snippet>
