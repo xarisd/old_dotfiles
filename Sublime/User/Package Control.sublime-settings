@@ -4,14 +4,18 @@
 	],
 	"installed_packages":
 	[
+		"DashDoc",
 		"EditorConfig",
+		"Emmet",
+		"GitGutter",
 		"Package Control",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimeLinter-rubocop",
-		"Terminal"
+		"SublimeLinter-ruby"
 	],
 	"repositories":
 	[
