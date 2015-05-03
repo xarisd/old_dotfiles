@@ -10,11 +10,7 @@ rm -r User
 ln -s ~/.dotfiles/Sublime/User
 ```
 
-### Other sources
-
 See [Package Control Docs : Syncing](https://packagecontrol.io/docs/syncing)
-
-
 
 
 ## Paste and Indent
@@ -27,108 +23,81 @@ This can be done in file `User/Default (OSX).sublime-keymap` using the following
 { "keys": ["super+shift+v"], "command": "paste" }
 ```
 
+## Packages - General
 
-## Packages
+### Package: DashDoc
+
+  See:
+
+  * https://packagecontrol.io/packages/DashDoc
+  * https://github.com/farcaller/DashDoc#readme
+
+  DashDoc provides integration of [Dash](https://kapeli.com/dash) into Sublime Text.
+
+  Opens the selected text or text under cursor in Dash documentation browser.
+  By default, DashDoc is sensitive to the syntax used in the current view.
+
+  TIP: Don't forget to add a syntax map in the `DashDoc.sublime-settings` if you have installed the Python 3 language bundle.
 
 ### Package: EditorConfig
 
-* http://editorconfig.org/
-* https://github.com/sindresorhus/editorconfig-sublime#readme
-
-### Package: Sublime CodeIntel
-
-* https://packagecontrol.io/packages/SublimeCodeIntel
-* http://sublimecodeintel.github.io/SublimeCodeIntel/
-* https://github.com/SublimeCodeIntel/SublimeCodeIntel/tree/development
-* https://pypi.python.org/pypi/CodeIntel (this is for version 3)
-
-#### Install it for SublimeText 3
-
-See : https://johnblackbourn.com/sublimecodeintel-st3
-
-1. Install it with git and use the `development` branch
-
-  ```
-  cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-  git clone -b development git@github.com:SublimeCodeIntel/SublimeCodeIntel.git
-  ```
-
-2. Clear your CodeIntel cache
-
-  ```
-  rm -rf ~/.codeintel
-  ```
-
-3. Fix the language-specific config
-
-  Inexplicably, SublimeCodeIntel’s default config disables project scanning for PHP and
-  JavaScript files, which is what most users have been using it for.
-
-  To fix it, open the Sublime Text menu and go to `Preferences → Package Settings →
-  SublimeCodeIntel → Settings – Default` . At the bottom of this file are languagespecific
-  settings for Python, JavaScript, and PHP.
-
-  Do not edit this config directly. Instead copy it's contents completely and paste it
-  into your user settings ( `Preferences → Package Settings → SublimeCodeIntel →
-  Settings – User` ). Then change the PHP and JavaScript settings from the bottom to
-  `codeintel_scan_files_in_project` settings to `true`.
-
-  Note: This fix is done...
-
-
-### Package: Terminal
-
-* http://wbond.net/sublime_packages/terminal
-
-Open terminal in the current's file parent folder by `CMD + SHIFT + t`
-Open terminal in the project's root by `CMD + SHIFT + ALT + t`
-
+  * http://editorconfig.org/
+  * https://github.com/sindresorhus/editorconfig-sublime#readme
 
 ### Package: SublimeLinter
 
-See http://www.sublimelinter.com/en/latest/
+  See http://www.sublimelinter.com/en/latest/
 
-READ the instructions!
+  READ the instructions!
 
-* CSSLint
+  * CSSLint
 
-  ```
-  npm install csslint -g
-  ```
+    ```
+    npm install csslint -g
+    ```
 
-  then install package SublimeLinter-csslint
-  and then follow instructions at
-  https://github.com/SublimeLinter/SublimeLinter-csslint
+    then install package SublimeLinter-csslint
+    and then follow instructions at
+    https://github.com/SublimeLinter/SublimeLinter-csslint
 
-* JSHint
+  * JSHint
 
-  ```
-  npm install jshint -g
-  ```
-  and then install package SublimeLinter-jshint
-  and then follow instructions at
-  https://github.com/SublimeLinter/SublimeLinter-jshint
+    ```
+    npm install jshint -g
+    ```
+    and then install package SublimeLinter-jshint
+    and then follow instructions at
+    https://github.com/SublimeLinter/SublimeLinter-jshint
 
-* Flake8 (Python)
+  * Flake8 (Python)
 
-  ```
-  pip install flake8
-  ```
+    ```
+    pip install flake8
+    ```
 
-  then install package SublimeLinter-csslint
-  and then follow instructions at
-  https://github.com/SublimeLinter/SublimeLinter-flake8
+    then install package SublimeLinter-csslint
+    and then follow instructions at
+    https://github.com/SublimeLinter/SublimeLinter-flake8
 
-* Rubocop (Ruby)
+  * Rubocop (Ruby)
 
-  ```
-  gem install rubocop
-  ```
+    ```
+    gem install rubocop
+    ```
 
-  then install package SublimeLinter-rubocop
-  and then follow instructions at
-  https://github.com/SublimeLinter/SublimeLinter-rubocop
-
-
+    then install package SublimeLinter-rubocop
+    and then follow instructions at
+    https://github.com/SublimeLinter/SublimeLinter-rubocop
 
 
+## Packages - Python
+
+### Package: Python 3 / Cython+
+
+  See: https://packagecontrol.io/packages/Python%203
+
+  Set as default
+
+  After you installed the language definition file successfully, all you have to do is assign the .py files to always open with this syntax highlighter. Go to
+
+  `View` → `Syntax` → `Open all with current extension as`... → `Python 3`
