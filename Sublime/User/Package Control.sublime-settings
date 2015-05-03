@@ -4,18 +4,22 @@
 	],
 	"installed_packages":
 	[
+		"Cython+",
 		"DashDoc",
 		"EditorConfig",
 		"Emmet",
 		"GitGutter",
 		"Package Control",
+		"Python 3",
+		"requirementstxt",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimeLinter-rubocop",
-		"SublimeLinter-ruby"
+		"SublimeLinter-ruby",
+		"SublimePythonIDE"
 	],
 	"repositories":
 	[
