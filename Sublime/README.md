@@ -67,6 +67,14 @@ You can read SublimeText's unofficial documentation at http://docs.sublimetext.i
   * https://packagecontrol.io/packages/Emmet
   * http://emmet.io/
 
+### Package: Git
+
+  Plugin for some git integration into sublime text.
+
+  See
+
+  * https://packagecontrol.io/packages/Git
+
 ### Package: GitGutter
 
   A sublime text 2/3 plugin to show an icon in the gutter area indicating whether a line has been inserted, modified or deleted.
