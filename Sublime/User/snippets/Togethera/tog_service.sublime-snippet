@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+
+## ${1:Name of the service}
+
+${2:Url of the service}
+
+### Reason for using it
+
+  ${3}
+
+### Libraries, configuration files, keys and credentials
+
+  * Libraries used
+    * Python package `${4:package}` (inside `requirements.txt`)
+
+  * Keys in Django's `local_settings.py` or `settings.py`
+    * ${5}
+
+  * Actual Keys and credentials
+    * ?
+
+### Manual administration tasks for it
+
+  * ?
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ext</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.md</scope> -->
+</snippet>

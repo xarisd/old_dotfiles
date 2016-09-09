@@ -1,0 +1,39 @@
+<snippet>
+  <content><![CDATA[
+
+## ${1:Description_of_the_task}
+
+  ### Reason for using it
+
+    ${2}
+
+  ### Where this task is executed
+
+    ${3}
+
+  ### The schedule of the task
+
+    ${4}
+
+  ### How do we **checks** that the task executes successfully
+
+    ${5}
+
+  ### Things that can go wrong and workarounds
+
+    ${6}
+
+  ### Code and Configuration files related to the task
+
+    * `${7:class_or_function}` at `${8:path_to_file}`
+
+  ### Can be run as manual task
+
+    ?
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cron</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.md</scope> -->
+</snippet>

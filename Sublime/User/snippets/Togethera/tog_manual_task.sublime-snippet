@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+
+## ${1:Description_of_the_task}
+
+  ### Reason for using it
+
+    ${2}
+
+  ### Manual steps
+
+    1. SSH into ${3}
+
+    2. ${4:TASK}
+
+      ```bash
+
+      ```
+
+  ### Code related to the task
+
+    * `class_or_function` at `path_to_file`
+
+  ### Can be run as cron task
+
+    ?
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>man</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.md</scope> -->
+</snippet>
